@@ -58,6 +58,9 @@
     <Compile Include="Vues\frmSpéPraticiens.xaml.cs">
       <DependentUpon>frmSpéPraticiens.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Vues\frmTristan.xaml.cs">
+      <DependentUpon>frmTristan.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -72,6 +75,10 @@
     </Compile>
     <Page Include="Vues\frmSpéPraticiens.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </Page>
+    <Page Include="Vues\frmTristan.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
