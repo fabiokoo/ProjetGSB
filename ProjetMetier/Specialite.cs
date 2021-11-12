@@ -10,7 +10,7 @@ namespace ProjetMetier
     {
         private int idSpe;
         private string nomSpe;
-        private double praticiens;
+        private string praticiens;
 
     }
 }
