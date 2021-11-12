@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProjetMetier
 {
-    public class Class1
+    public class Specialite
     {
+        private int idSpe;
+        private string nomSpe;
+
     }
 }
